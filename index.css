@@ -1,4 +1,44 @@
+body {
+    margin: 0;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: transformers;
+    src: url(fonts/transformers.ttf);
+}
+/* Layout */
+.header {
+    margin: 10px auto;
+    height: 15%;
+    background: url('images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 15px 3px white;
+    overflow: hidden;
+    resize: both;
+}
+
+.section {
+    margin: auto;
+    height: 70%;
+}
+
 .container {
-    background-color: red;
-    height: 200px;
+    background-color: #F5F5F5;
+    width: 70%;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+/* Typography */
+.title,
+.sub-title {
+    color: white;
+    font-family: transformers, 'sans-serif';
+    padding: 2px;
+    margin: auto;
 }
